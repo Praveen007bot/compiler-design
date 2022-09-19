@@ -11,7 +11,7 @@ void main()
     {
         if (com[1] == '/')
 
-            printf("\n It is a Comment.");
+            printf("\n It is a single line Comment.");
 
         else if (com[1] == '*')
         {
@@ -19,7 +19,7 @@ void main()
             {
                 if (com[i] == '*' && com[i + 1] == '/')
                 {
-                    printf("\n It is a Comment.");
+                    printf("\n It is a multi-line Comment.");
                     a = 1;
                     break;
                 }
